@@ -96,7 +96,7 @@ using Vahana
 import Statistics: mean
 
 # suppress the ":Stateless hint" warning, we will come back to this later
-detect_stateless()
+detect_stateless(true)
 
 struct Person
     opinion::Float64
