@@ -113,7 +113,7 @@ const model = ModelTypes() |>
     # opinions with a difference greater than $\epsilon$ are ignored by
     # the agents in the transition function. All agents have the same
     # confidence bound, so we introduce this bound as a parameter.
-    register_param!(:ϵ, 0.02) |> 
+    register_param!(:ϵ, 0.2) |> 
     create_model("Hegselmann-Krause")
 
 function new_simulation(num_persons, ϵ)
