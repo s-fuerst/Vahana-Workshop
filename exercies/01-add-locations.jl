@@ -53,7 +53,10 @@ So, the overall task consists of the following steps:
      of type "CurrentLocation" in both directions.
 
 3. Write a new transition function where each location connects all
-   persons at that location with edges of type "Knows".
+   persons at that location with edges of type `Knows`. Call this
+   transition function in `new_simulation` after `finish_init!` so
+   that in the initial state of the simulation we have a "correct"
+   graph.
 
 4. Write a new transition function where each person updates their
    current location, following the rule described above. Hint: In the
@@ -106,7 +109,7 @@ end
 # exists a direct "Knows" relationship connection between them.
 struct Knows end
 
-const model = ModelTypes() |>
+model = ModelTypes() |>
     register_agenttype!(Person) |>
     register_edgetype!(Knows) |>
     # Beside these two types there is a *confidence bound* $\epsilon > 0$,
