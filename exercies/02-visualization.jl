@@ -90,10 +90,6 @@ using Vahana
 import Statistics: mean
 import StatsBase: sample
 
-# plot_opinions is defined here, incl. the
-# using statements needed for the visualization
-include("../support/visualization.jl")
-
 detect_stateless(true)
 
 struct Person
@@ -109,6 +105,9 @@ struct CurrentLocation end
 struct Reachable end
 
 struct LogRedraw end
+
+# plot_opinions is defined here, incl. the using statements needed for visualization
+include("../support/visualization.jl")
 
 model = ModelTypes() |>
     register_agenttype!(Person) |>

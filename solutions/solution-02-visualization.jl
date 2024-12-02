@@ -28,8 +28,7 @@ struct Reachable end
 
 struct LogRedraw end
 
-# plot_opinions is defined here, incl. the
-# using statements needed for the visualization
+# plot_opinions is defined here, incl. the using statements needed for visualization
 include("../support/visualization.jl")
 
 model = ModelTypes() |>
