@@ -121,7 +121,7 @@ model = ModelTypes() |>
     create_model("Hegselmann-Krause-Analysis")
 
 # no need to change anything
-function new_simulation(num_locations, num_reachable, ϵ)
+function new_simulation(num_persons, num_locations, num_reachable, ϵ)
     sim = create_simulation(model)
     personids = add_agents!(sim, [ Person(rand()) for _ in 1:num_persons])
     locationids = add_agents!(sim, [ Location() for _ in 1:num_locations])
