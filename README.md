@@ -49,11 +49,8 @@ This repository was originally created for the [Scaling Complexity Workshop](htt
 
 ## Acknowledgment
 
-<div style="display: flex; align-items: center;">
-    <img src="./NHR-logo.png" alt="NHR Logo" width="150">
-    <div style="margin-left: 20px;">
-        This material was developed for the <a href="https://indico.scc.kit.edu/event/3649/">Scaling Complexity Workshop</a>, Zuse Institute Berlin, December 2-3, 2024, and funded by <a href="https://www.nhr-verein.de/en">NHR Alliance</a>.
-    </div>
-</div>
+<img src="./NHR-logo.png" alt="NHR Logo" width="150" align="left" style="margin-right: 20px;">
 
+This material was developed for the [Scaling Complexity Workshop](https://indico.scc.kit.edu/event/3649/), Zuse Institute Berlin, December 2-3, 2024, and funded by [NHR Alliance](https://www.nhr-verein.de/en).
 
+<br clear="left"/>
