@@ -49,7 +49,7 @@ This repository was originally created for the [Scaling Complexity Workshop](htt
 
 ## Acknowledgment
 
-<img src="./NHR-logo.png" alt="NHR Logo" width="180" align="left" style="margin-right: 20px;">
+<img src="./NHR-logo.png" alt="NHR Logo" width="220" align="left" style="margin-right: 20px;">
 
 This material was developed for the [Scaling Complexity Workshop](https://indico.scc.kit.edu/event/3649/), Zuse Institute Berlin, December 2-3, 2024, and funded by [NHR Alliance](https://www.nhr-verein.de/en).
 
