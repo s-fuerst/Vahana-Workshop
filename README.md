@@ -26,7 +26,7 @@ This repository was originally created for the [Scaling Complexity Workshop](htt
 3. **Install needed packages** (may take several minutes to complete)	
     ```bash
     cd Vahana-Workshop
-	julia install-packages.jl
+	julia --project install-packages.jl
     ```
 
 ## How to Use This Workshop
