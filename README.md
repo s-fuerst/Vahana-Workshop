@@ -49,8 +49,20 @@ This repository was originally created for the [Scaling Complexity Workshop](htt
 
 ## Acknowledgment
 
-<img src="./NHR-logo.png" alt="NHR Logo" width="150" align="left" style="margin-right: 20px;">
+<img src="./NHR-logo.png" alt="NHR Logo" width="180" align="left" style="margin-right: 20px;">
 
 This material was developed for the [Scaling Complexity Workshop](https://indico.scc.kit.edu/event/3649/), Zuse Institute Berlin, December 2-3, 2024, and funded by [NHR Alliance](https://www.nhr-verein.de/en).
+
+For researchers at German universities interested in running
+large-scale Vahana simulations, the NHR Alliance offers access to
+high-performance computing resources through several project
+categories.
+
+Of particular interest to those new to HPC is the **NHR-Starter**
+category. This one-time opportunity is designed for researchers
+without prior experience in HPC resource applications. For more
+information about NHR resource allocation and application procedures,
+visit the [NHR website](https://www.nhr-verein.de/rechnernutzung).
+
 
 <br clear="left"/>
